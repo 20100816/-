@@ -25,10 +25,10 @@ export default {
       <home></home>
     </div>
     <div v-if="active == 1">
-      <history></history>
+      <information></information>
     </div>
     <div v-if="active == 2">
-      <information></information>
+      <history></history>
     </div>    
     <div v-if="active == 3">
       <user></user>
